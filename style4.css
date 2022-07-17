@@ -1,0 +1,256 @@
+* { margin: 0px; padding: 0px; border: 0px; box-sizing: border-box; outline: none; text-decoration: none; }
+body { }
+header {position: sticky;top: 0px;z-index: 1; background: white;}
+nav { display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; height: 100px; position: sticky; top: 0px; }
+.logo {width: 40%;}
+.logo img {top: 15px;width: 8%;position: relative;left: 126px;}
+.menu {width: 60%;}
+.menu ul { list-style: none; }
+.menu ul li { display: inline-block; }
+.menu ul li a {position: relative;color: black;text-transform: uppercase;font-size: 22px;transition: 0.8s ease-in-out;margin: 0px 16px;font-weight: 600;left: 249px;}
+.menu ul li a:hover { background: rgb(151, 114, 100); padding: 10px; border-radius: 10px; color: white;}
+/* ===================================contact==================== */
+#contact-part{
+    background-color: #f5f5f5;
+    height: 972px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.contact1{
+    display: flex;
+    flex-flow: row wrap;
+    height: 484px;
+}
+.contact-writing{
+    width: 50%;
+    position: relative;
+    top: 80px;
+}
+article{
+
+}
+.contact-writing h1{
+
+font-size: 40px;
+}
+.contact-writing p{
+    top: 20px;
+    width: 92%;
+    font-size: 19px;
+    position: relative;
+    color: gray;
+}
+.wtn{
+
+top: 46px;
+
+position: relative;
+}
+.wtn h3{
+
+}
+.wtn h4{
+
+top: -19px;
+
+left: 97px;
+
+position: relative;
+
+color: gray;
+}
+.contact-form{
+    top: 80px;
+    width: 50%;
+    position: relative;
+}
+
+
+form{
+
+}
+.box{
+
+}
+.box input{
+
+width: 46%;
+
+color: gray;
+
+position: relative;
+
+margin: 16px 9px;
+
+left: 12px;
+}
+form input{
+    
+left: 21px;
+    
+text-transform: capitalize;
+    
+font-size: 18px;
+    
+padding: 13px;
+    
+width: 96%;
+    
+position: relative;
+    
+color: gray;
+}
+form textarea{
+
+text-transform: capitalize;
+
+width: 96%;
+
+height: 134px;
+
+font-size: 18px;
+
+padding: 16px;
+
+position: relative;
+
+left: 20px;
+
+color: gray;
+
+top: 16px;
+}
+.btn2{
+    
+color: white;
+    
+text-transform: uppercase;
+    
+background: #10c9c3;
+    
+font-size: 19px;
+    
+padding: 10px 18px;
+    
+position: relative;
+    
+left: 19px;
+    
+top: 36px;
+transition: 0.8s ease-in-out ;
+}
+.btn2:hover{
+    background-color: rgb(47, 173, 231);
+    color: black;
+}
+.contact2{
+}
+iframe{
+    
+width: 100%;
+}
+/* =======================footer================== */
+#footer-part{
+    background: black;
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    height: 250px;
+}
+.footer1{
+    width: 25%;
+
+}
+.footer1 h1{
+
+top: 52px;
+
+text-transform: capitalize;
+
+font-size: 23px;
+
+position: relative;
+
+left: 102px;
+
+margin: 0px auto;
+}
+.footer1 p{
+
+top: 69px;
+
+font-size: 19px;
+
+position: relative;
+
+left: 90px;
+
+margin: 6px auto;
+}
+.footer2{
+    width: 20%;
+
+}
+.footer2 p{
+
+top: 47px;
+
+color: white;
+
+text-transform: capitalize;
+
+font-size: 19px;
+
+position: relative;
+
+left: 73px;
+
+width: 162px;
+
+margin: 11px auto;
+}
+.footer3{
+    width: 10%;
+
+}
+.footer3 p{
+
+top: 47px;
+
+color: #f3f7ee;
+
+text-transform: capitalize;
+
+font-size: 19px;
+
+position: relative;
+
+left: 176px;
+
+width: 85px;
+
+margin: 11px auto;
+}
+.footer4{
+    width: 20%;
+}
+.footer4 p{
+
+top: 47px;
+
+color: #67c90e;
+
+text-transform: capitalize;
+
+font-size: 19px;
+
+position: relative;
+
+left: 182px;
+
+width: 85px;
+
+margin: 11px auto;
+}
